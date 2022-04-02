@@ -1,0 +1,19 @@
+{
+  "name": "@wolfe-labs/DebugUtility",
+  "description": "Lua debugging utility for Dual Universe scripts and elements",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "main": {
+      "name": "main",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    }
+  }
+}
